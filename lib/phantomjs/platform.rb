@@ -98,7 +98,7 @@ module Phantomjs
         end
 
         def package_url
-          'https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-1.9.8-linux-x86_64.tar.bz2'
+          'https://github.com/Vitallium/phantomjs/releases/download/2.0.1/phantomjs-2.0.1-linux-x86_64.zip'
         end
       end
     end
@@ -130,7 +130,7 @@ module Phantomjs
         end
 
         def package_url
-          'https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-1.9.8-macosx.zip'
+          'https://github.com/Vitallium/phantomjs/releases/download/2.0.1/phantomjs-2.0.1-macosx.zip'
         end
       end
     end
@@ -154,7 +154,7 @@ module Phantomjs
         end
 
         def package_url
-          'https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-1.9.8-windows.zip'
+          'https://github.com/Vitallium/phantomjs/releases/download/2.0.1/phantomjs-2.0.1-windows.zip'
         end
       end
     end
