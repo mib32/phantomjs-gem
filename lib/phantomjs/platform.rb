@@ -71,7 +71,7 @@ module Phantomjs
           # Move the extracted phantomjs build to $HOME/.phantomjs/version/platform
           if FileUtils.mv extracted_dir, File.join(Phantomjs.base_dir, platform)
             STDOUT.puts "\nSuccessfully installed phantomjs. Yay!"
-            system "chmod -x #{Phantomjs.path}"
+            system "chmod +x #{Phantomjs.path}"
           end
 
           # Clean up remaining files in tmp
